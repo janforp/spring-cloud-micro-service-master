@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/discovery-eureka/discovery-eureka.iml" filepath="$PROJECT_DIR$/discovery-eureka/discovery-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery-eureka-b/discovery-eureka-b.iml" filepath="$PROJECT_DIR$/discovery-eureka-b/discovery-eureka-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-micro-service-master.iml" filepath="$PROJECT_DIR$/spring-cloud-micro-service-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-consumer-a/user-consumer-a.iml" filepath="$PROJECT_DIR$/user-consumer-a/user-consumer-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-server-a/user-server-a.iml" filepath="$PROJECT_DIR$/user-server-a/user-server-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-server-b/user-server-b.iml" filepath="$PROJECT_DIR$/user-server-b/user-server-b.iml" />
+    </modules>
+  </component>
+</project>
