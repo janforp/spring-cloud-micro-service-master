@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="common" />
         <module name="discovery-eureka" />
         <module name="discovery-eureka-b" />
         <module name="user-consumer-a" />
@@ -14,6 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
       <module name="discovery-eureka" target="1.8" />
       <module name="discovery-eureka-b" target="1.8" />
       <module name="spring-cloud-micro-service-master" target="1.8" />

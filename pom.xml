@@ -29,7 +29,16 @@
         <module>discovery-eureka-b</module>
 		<module>user-server-b</module>
         <module>user-consumer-a</module>
+        <module>common</module>
     </modules>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.janita.micro</groupId>
+			<artifactId>common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 
 	<dependencyManagement>
 		<dependencies>

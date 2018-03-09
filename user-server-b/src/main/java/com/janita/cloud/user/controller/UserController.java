@@ -7,16 +7,23 @@ import com.janita.cloud.common.result.ResultDto;
 import com.janita.cloud.common.result.ResultDtoFactory;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by Janita on 2018-03-08 17:51
+ * Created by Janita on 2018-03-09 13:56
  */
 @RestController
-public class HelloController {
+@RequestMapping("/user")
+public class UserController {
 
-    @GetMapping("/hello")
-    public String hello() {
-        return "Hello from user a";
+    @GetMapping("/findByUserId/{userId}")
+    public User findByUserId(@PathVariable long userId) {
+        User user = new User();
+        if (userId == 0) throw new CustomException(ResultEnum.USER_NOT_EXISTS);
+        user.setName("张三");
+        user.setUserId(userId);
+        user.setAge(18);
+        return user;
     }
 }
