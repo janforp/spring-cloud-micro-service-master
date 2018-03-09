@@ -30,6 +30,10 @@
 		<module>user-server-b</module>
         <module>user-consumer-a</module>
         <module>common</module>
+        <module>hystrix-dashboard</module>
+        <module>turbine</module>
+        <module>user-consumer-b</module>
+        <module>turbine-amqp</module>
     </modules>
 
 	<dependencies>

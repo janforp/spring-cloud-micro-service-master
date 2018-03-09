@@ -5,8 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/discovery-eureka/discovery-eureka.iml" filepath="$PROJECT_DIR$/discovery-eureka/discovery-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/discovery-eureka-b/discovery-eureka-b.iml" filepath="$PROJECT_DIR$/discovery-eureka-b/discovery-eureka-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-micro-service-master.iml" filepath="$PROJECT_DIR$/spring-cloud-micro-service-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine/turbine.iml" filepath="$PROJECT_DIR$/turbine/turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine-amqp/turbine-amqp.iml" filepath="$PROJECT_DIR$/turbine-amqp/turbine-amqp.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-consumer-a/user-consumer-a.iml" filepath="$PROJECT_DIR$/user-consumer-a/user-consumer-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-consumer-b/user-consumer-b.iml" filepath="$PROJECT_DIR$/user-consumer-b/user-consumer-b.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-server-a/user-server-a.iml" filepath="$PROJECT_DIR$/user-server-a/user-server-a.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-server-b/user-server-b.iml" filepath="$PROJECT_DIR$/user-server-b/user-server-b.iml" />
     </modules>

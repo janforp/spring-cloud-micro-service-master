@@ -1,7 +1,6 @@
 package com.janita.cloud.user.consumer.service;
 
 import com.janita.cloud.common.bean.User;
-import com.janita.cloud.common.exception.CustomException;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
