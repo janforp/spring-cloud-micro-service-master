@@ -15,6 +15,15 @@ public class User {
         return userId;
     }
 
+    public User(Long userId, String name, Integer age) {
+        this.userId = userId;
+        this.name = name;
+        this.age = age;
+    }
+
+    public User() {
+    }
+
     public void setUserId(Long userId) {
         this.userId = userId;
     }

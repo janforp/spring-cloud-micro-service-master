@@ -9,6 +9,7 @@
         <module name="common" />
         <module name="discovery-eureka" />
         <module name="discovery-eureka-b" />
+        <module name="feign-consumer" />
         <module name="hystrix-dashboard" />
         <module name="turbine" />
         <module name="turbine-amqp" />
@@ -22,6 +23,7 @@
       <module name="common" target="1.8" />
       <module name="discovery-eureka" target="1.8" />
       <module name="discovery-eureka-b" target="1.8" />
+      <module name="feign-consumer" target="1.8" />
       <module name="hystrix-dashboard" target="1.8" />
       <module name="spring-cloud-micro-service-master" target="1.8" />
       <module name="turbine" target="1.8" />
